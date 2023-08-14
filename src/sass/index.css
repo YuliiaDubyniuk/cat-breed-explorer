@@ -11,6 +11,10 @@ body {
   flex-wrap: wrap;
 }
 
+.select-box {
+  width: 200px;
+}
+
 .cat-info {
   display: flex;
   gap: 20px;
