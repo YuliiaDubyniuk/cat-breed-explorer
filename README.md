@@ -1,43 +1,29 @@
-# Parcel Project Template (Cat Breads)
+# Cat Breed Explorer
 
-Project built using starter **Parcel** template .
+A simple, lightweight JavaScript app that lets users select a cat breed and view breed-specific information along with a photo — all powered by [TheCatAPI](https://thecatapi.com/) and built using [Parcel](https://parceljs.org/).
 
 ---
 
 ## Features
 
-- ⚙️ **Parcel** for fast bundling  
-- SCSS processing  
-- Live development server with hot reload (`npm start`)  
-- Image optimization in production builds  
-- GitHub Actions workflow for deployment upon `push` to `main`  
-- Automated deployment to GitHub Pages (`gh-pages` branch)  
+- Dropdown to select from multiple cat breeds
+- Displays an image of the selected breed
+- Shows breed details: name, origin, temperament, lifespan, etc.
+- Built with **vanilla JavaScript** and **Parcel bundler**
+- Uses `async/await` and Fetch API to load data from a remote API
 
 ---
 
-## Prerequisites
+## Getting Started
 
-- Node.js (LTS version recommended)  
-- A GitHub repository git clone https://github.com/YuliiaDubyniuk/cat_breads_with_parcel.git
+### Prerequisites
 
----
+- [Node.js](https://nodejs.org/) (v14+)
+- npm or yarn
 
-## Setup
+### Installation
 
-1. Clone this repo.  
-2. Rename the root folder to your project name.  
-3. Update `package.json`:  
-   - Edit the `homepage` property:
-     ```json
-     "homepage": "https://<your_username>.github.io/<your_repo_name>/"
-     ```
-   - Update build script:
-     ```json
-     "scripts": {
-       "build": "parcel build src/*.html --public-url /<your_repo_name>/"
-     }
-     ```
-4. Install dependencies:
-   ```bash
-   npm install
-
+```bash
+git clone https://github.com/YuliiaDubyniuk/cat-breed-explorer.git
+cd cat-breed-explorer
+npm install
