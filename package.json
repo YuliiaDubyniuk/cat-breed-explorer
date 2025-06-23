@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://YuliiaDubyniuk.github.io/goit-js-hw-10",
+  "homepage": "https://YuliiaDubyniuk.github.io/cat-breed-explorer",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+    "build": "parcel build src/*.html --public-url /cat-breed-explorer/"
   },
   "repository": {
     "type": "git",
